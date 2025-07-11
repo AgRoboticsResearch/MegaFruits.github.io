@@ -1,7 +1,11 @@
 ## Introduction
 This page is the official website of the MegaFruits dataset, a large-scale, annotated segmentation dataset for fruits. This dataset was collected and annotated between October 20, 2023, and May 27, 2025, in Hangzhou, Zhejiang, China. Images were captured using an Honor Magic5 Pro smartphone and a GoPro Hero4 Black camera.
 
+MegaFruits contains over 50,000 images with 1,098,843 instances, making it one of the largest fruit segmentation datasets available. In agricultural domains, large-scale datasets are crucial yet challenging to create due to environmental variability, crop seasonality, and the labor-intensive nature of pixel-level annotation. Thanks to [SDM (Segmentation-Description-Matching)](https://github.com/AgRoboticsResearch/SDM-D) method, which is a vision-language model tailored for agriculture. It enables the generation of high-quality pseudo masks without any pre-training and fine-tunning. Without the SDM-D methodology, contributing such an extensive segmentation dataset would have been practically impossible.
+
 The dataset presents several challenges for fruit segmentation, including varying lighting conditions, shadows, occlusions, and the presence of branches, veins, and leaves. To rigorously assess method performance, a comprehensive fruit segmentation dataset is essential. Such a dataset should encompass various fruit types and provide abundant segmentation masks. The MegaFruits dataset was created to address this gap and facilitate future research.
+
+
 
 ### Contributors
 - [Yanan Wang*](mailto:mmwang@zju.edu.cn)
@@ -36,11 +40,7 @@ Below are examples of our high quality pixel annotations.
 
 
 ## Using the dataset
-Please include the following acknowledgment…
-```
-Kindly provided by the MegaFruits Team (see https://github.com/AgRoboticsResearch/)
-```
-…as well as a reference to the following paper:
+Please include the following acknowledgment:
 
 ```
 @article{title = "Learn from Foundation Model: Fruit Detection Model without Manual Annotation",
