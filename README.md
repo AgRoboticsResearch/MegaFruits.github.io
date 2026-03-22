@@ -16,7 +16,7 @@ The dataset presents several challenges for fruit segmentation, including varyin
 _*ZJU-Hangzhou Global Scientific and Technological Innovation Center & College of Biosystems Engineering and Food Science, Zhejiang University._
 
 ## MegaFruits Dataset
-The MegaFruits dataset comprises four subsets: Mega_Strawberry, Mega_Blueberry, Mega_Peach, and Mega_Waxberry. The Mega_Strawberry includes 20,242 images with 569,382 pseudo masks, and the Mega_Waxberry includes 15,000 images with xx,xxx pseudo masks. The labels of the two subsets are generated using our Segmentation-Description-Matching method (https://github.com/AgRoboticsResearch/SDM-D.git). The Mega_Blueberry consists of 2,540 images with 20,656 masks, and the Mega_Peach subset contains 2,400 images with 10,129 instances.
+The MegaFruits dataset comprises four subsets: Mega_Strawberry, Mega_Blueberry, Mega_Peach, and Mega_Waxberry. The Mega_Strawberry includes 20,242 images with 569,382 pseudo masks, and the Mega_Waxberry includes 15,000 images with 14,250 pseudo masks. The labels of the two subsets are generated using our Segmentation-Description-Matching method (https://github.com/AgRoboticsResearch/SDM-D.git). The Mega_Blueberry consists of 2,540 images with 20,656 masks, and the Mega_Peach subset contains 2,400 images with 10,129 instances.
 
 To ensure unbiased evaluation, all test sets were independently collected from distinct orchard regions, separate from those used for training data. This dataset supports object detection, semantic segmentation, and instance segmentation tasks.
 
